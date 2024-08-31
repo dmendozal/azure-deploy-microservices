@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{0414778E-A839-49A4-A79C-E31E23575019}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Servicios.api.Gateway PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/danielmendoza/Documents/Learning/DotNet/azure-deploy-microservices/Servicios.api.Gateway/Program.cs" relfile="Servicios.api.Gateway/Program.cs" line="15" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Servicios.api.Libreria PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Servicios.api.Gateway/Program.cs">
+    <Files>
+      <File FileName="Servicios.api.Gateway/Program.cs" Line="16" Column="1" />
+      <File FileName="Servicios.api.Gateway/Servicios.api.Gateway.csproj" Line="4" Column="26" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Microservices" expanded="True">
+            <Node name="Servicios.api.Gateway" selected="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

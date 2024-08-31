@@ -1,0 +1,25 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: mongo-pod
+  labels:
+    app: microservice-libreria
+    name: mongo-pod
+spec:
+  containers:
+  - name: mongo
+    image: mongo:7.0
+    command:
+      - bin/bash
+      - -c
+    env:
+      - name:  MONGO_INITDB_ROOT_USERNAME
+        value: "danielml"
+      - name: MONGO_INITDB_ROOT_PASSWORD
+        value: "$root2024"
+    resources:
+      limits:
+        memory: "128Mi"
+        cpu: "500m"
+    ports:
+      - containerPort: 27017

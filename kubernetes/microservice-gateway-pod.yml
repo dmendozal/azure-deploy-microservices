@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: microservice-gateway-pod
+  labels:
+    name: microservice-gateway
+    type: microservice
+spec:
+  containers:
+  - name: microservice-gateway-app
+    image: danielml/microservice-gateway:latest
+    resources:
+      limits:
+        memory: "128Mi"
+        cpu: "500m"
+    ports:
+      - containerPort: 80
